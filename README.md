@@ -22,32 +22,32 @@ The application focuses on fetching and displaying weather data from a remote AP
 
 ---
 
-## 🛠 Technology Stack & Architecture
+##  Technology Stack & Architecture
 
 This project is built with an emphasis on scalability, maintainability, and modern Android development practices.
 
-### 🔹 Language
+### 1. Language
 
  Kotlin – Official and recommended language for Android development.
 
-### 🔹 Architecture
+### 2. Architecture
 
  Client–Server Architecture
   The app communicates with remote services (weather API & Firebase backend).
  Code structure is ready for MVVM (Model–View–ViewModel) adoption.
 
-### 🔹 User Interface
+### 3. User Interface
 
  Material Design Components – Consistent and visually appealing UI
  ViewBinding – Type-safe access to XML views, eliminating `findViewById`
  ConstraintLayout – Flexible and responsive layout design
 
-### 🔹 Networking
+### 4. Networking
 
  Retrofit – Type-safe HTTP client for REST API consumption
  Gson – JSON parsing and conversion into Kotlin data classes
 
-### 🔹 Backend & Database
+### 5. Backend & Database
 
  Firebase Platform
 
